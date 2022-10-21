@@ -27,6 +27,7 @@ allprojects {
 
     license {
         exclude '**/package-info.java'
+        exclude '**/**.java'
     }
 
     repositories {
